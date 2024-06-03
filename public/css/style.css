@@ -1,0 +1,44 @@
+
+body {margin: 0;}
+
+
+#logo {
+    color: brown;
+    font-size: 30pt;
+    font-family: 'open sans', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: -5px;
+    text-decoration-line: none;
+}
+
+#dot {
+    color: blue;
+}
+
+#nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellow;
+}
+
+#nav-ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    /* width: 40%; */
+    gap: 20px;
+    /* justify-content: space-evenly; */
+}
+
+#nav-ul a {
+    text-decoration-line: none;
+}
+
+#hero {
+    display: flex;
+}
+
+#hero-left {
+    display: flex;
+    flex-direction: column;
+}

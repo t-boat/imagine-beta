@@ -19,3 +19,4 @@ person['age'] = 50;
 person.nationality = 'British';
 
 console.log(person['nationality']);
+console.log(person.age);

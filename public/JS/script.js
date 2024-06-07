@@ -20,3 +20,21 @@ person.nationality = 'British';
 
 console.log(person['nationality']);
 console.log(person.age);
+
+
+// JavaScript MAth
+const pi = Math.PI;
+
+Math.pow(2, 3);
+
+Math.round(4.6);
+
+Math.ceil(4.2);
+Math.ceil(-4.2);
+
+Math.floor(4.2);
+Math.floor(-4.2);
+
+Math.sqrt(64);
+
+Math.abs(-4.7);

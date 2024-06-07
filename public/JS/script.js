@@ -38,3 +38,14 @@ Math.floor(-4.2);
 Math.sqrt(64);
 
 Math.abs(-4.7);
+
+
+//JavaScript Strings
+let text = "John Doe";
+
+let answer1 = "It's alright";
+
+//Template Strings
+text = `He's often called "Johnny"`;
+
+let length = text.length;

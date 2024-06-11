@@ -49,3 +49,46 @@ let answer1 = "It's alright";
 text = `He's often called "Johnny"`;
 
 let length = text.length;
+
+Number('1234');
+
+
+// Write a funtion that will add a participant to our Google classroom
+// let user_email = 'example@email.com'
+// let password = 'orange'
+const participants = [];
+function addParticipant(email) {
+  // Check if email was provided NOTE: short hand "if (!email)"
+  if (email===undefined|| email===null)  {
+    return 'No email provided';
+  }
+  // Check if email is valid
+  if (!email.includes('@'&&'.com')) {
+    return 'Invalid email provided'
+  }
+  // Add email to participants
+  participants.push(email);
+  return 'Participant added!';
+}
+
+addParticipant('example@gmail.com');
+addParticipant()
+addParticipant('example@')
+// addParticipant('example@.com')
+addParticipant('example@gmail.com')
+participants;
+
+
+// Arrays In JavaScript
+const users = [
+  {
+    username: 'meddy',
+    password: '1234',
+    email: 'example@gmail.com'
+  },
+  {
+    username:'darah',
+    password:'12345',
+    email:'darah@gmail.com'
+  }
+]

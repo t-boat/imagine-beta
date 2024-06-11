@@ -92,3 +92,45 @@ const users = [
     email:'darah@gmail.com'
   }
 ]
+
+
+
+function fullName(userName){
+    return `${userName.firstName} ${userName.lastName}`;
+}
+
+const user = {
+    firstName : 'John',
+    lastName : 'Doe'
+};
+
+fullName(user);
+
+
+//Array Map
+
+const users = [
+    {firstName : 'Mike', lastName : 'Chapman'},
+    {firstName : 'Don', lastName : 'King'},
+    {firstName : 'Eddie', lastName : 'Murphy'},
+    {firstName : 'Steve', lastName : 'Moore'}
+];
+
+users.map(fullName);
+
+//Square 
+function square(a){
+    return a*a;
+};
+
+
+const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+myNumbers.map(square);
+
+
+function isEven(num){
+    return num%2 === 0;
+}
+
+isEven(12);

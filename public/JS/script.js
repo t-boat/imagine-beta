@@ -80,7 +80,7 @@ participants;
 
 
 // Arrays In JavaScript
-const users = [
+const userList = [
   {
     username: 'meddy',
     password: '1234',
@@ -101,7 +101,9 @@ function fullName(userName){
 
 const user = {
     firstName : 'John',
-    lastName : 'Doe'
+    lastName : 'Doe',
+    email : 'theophilusboateng@gmail.com',
+    password : 'dev@1234',
 };
 
 fullName(user);
@@ -134,3 +136,26 @@ function isEven(num){
 }
 
 isEven(12);
+
+
+
+//Objects in JavaScript
+
+function resetPassword (emailAddress, newPassword) {
+  //check if email and password were supplied
+  if (!emailAddress || !newPassword) {
+      return `Email and/or Password not provided`;
+  }
+  
+  if (emailAddress !== user.email) {
+      return `Invalid e-mail`;
+  }
+  
+  user.password = newPassword;
+  return `Password successfully changed!`;
+}
+
+
+resetPassword('theophilusboateng@gmail.com', 123);
+
+user;
